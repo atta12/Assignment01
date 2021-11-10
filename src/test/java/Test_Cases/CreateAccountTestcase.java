@@ -4,12 +4,12 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import org.testng.annotations.Test;
-import BasePackage.Base_Class;
-import Pages.Create_new_Account;
+import BasePackage.BaseClass;
+import Pages.CreateNewAccount;
 
-public class CreateAccount_Testcase{
+public class CreateAccountTestcase{
 	public WebDriver driver;
-	Base_Class ObjBase = new Base_Class(this.driver);
+	BaseClass ObjBase = new BaseClass(this.driver);
 	
 	
 	@BeforeMethod
@@ -22,7 +22,7 @@ public class CreateAccount_Testcase{
 	public void test_Home_Page_Appear_Correct() throws Exception
 	{
 		
-		Create_new_Account objSignup= new Create_new_Account(this.driver);
+		CreateNewAccount objSignup= new CreateNewAccount(this.driver);
 		
 		objSignup.Translate_OpenSignup();
 		

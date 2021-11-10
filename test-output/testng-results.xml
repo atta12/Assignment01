@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-09T14:58:03Z" name="Default suite" finished-at="2021-11-09T14:58:33Z" duration-ms="30686">
+  <suite started-at="2021-11-10T08:25:19Z" name="Default suite" finished-at="2021-11-10T08:25:51Z" duration-ms="32076">
     <groups>
     </groups>
-    <test started-at="2021-11-09T14:58:03Z" name="Default test" finished-at="2021-11-09T14:58:33Z" duration-ms="30686">
+    <test started-at="2021-11-10T08:25:19Z" name="Default test" finished-at="2021-11-10T08:25:51Z" duration-ms="32076">
       <class name="Test_Cases.CreateAccount_Testcase">
-        <test-method is-config="true" signature="function()[pri:0, instance:Test_Cases.CreateAccount_Testcase@27d5a580]" started-at="2021-11-09T14:58:03Z" name="function" finished-at="2021-11-09T14:58:07Z" duration-ms="4584" status="PASS">
+        <test-method is-config="true" signature="function()[pri:0, instance:Test_Cases.CreateAccount_Testcase@27d5a580]" started-at="2021-11-10T08:25:19Z" name="function" finished-at="2021-11-10T08:25:25Z" duration-ms="6060" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- function -->
-        <test-method signature="test_Home_Page_Appear_Correct()[pri:0, instance:Test_Cases.CreateAccount_Testcase@27d5a580]" started-at="2021-11-09T14:58:07Z" name="test_Home_Page_Appear_Correct" finished-at="2021-11-09T14:58:29Z" duration-ms="21900" status="FAIL">
+        <test-method signature="test_Home_Page_Appear_Correct()[pri:0, instance:Test_Cases.CreateAccount_Testcase@27d5a580]" started-at="2021-11-10T08:25:25Z" name="test_Home_Page_Appear_Correct" finished-at="2021-11-10T08:25:47Z" duration-ms="21853" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[1]/section/div[2]/div/div[1]/div/div[1]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div/div/a/i (tried for 20 second(s) with 500 milliseconds interval)]]>
@@ -53,8 +53,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'NX00427', ip: '10.28.81.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\HAFIZ~1.ATT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:58613}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7bf1b9390e7ed5e61779b5bb968f8dcf
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\HAFIZ~1.ATT\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d655d0ff0649ab11299e0a2568072b2
 *** Element info: {Using=xpath, value=/html/body/div[1]/section/div[2]/div/div[1]/div/div[1]/div/div/div/div[2]/div[2]/div/div/div/div/div[1]/div/div/a/i}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -80,7 +80,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Home_Page_Appear_Correct -->
-        <test-method is-config="true" signature="close_browser()[pri:0, instance:Test_Cases.CreateAccount_Testcase@27d5a580]" started-at="2021-11-09T14:58:29Z" name="close_browser" finished-at="2021-11-09T14:58:33Z" duration-ms="4163" status="PASS">
+        <test-method is-config="true" signature="close_browser()[pri:0, instance:Test_Cases.CreateAccount_Testcase@27d5a580]" started-at="2021-11-10T08:25:47Z" name="close_browser" finished-at="2021-11-10T08:25:51Z" duration-ms="4136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browser -->

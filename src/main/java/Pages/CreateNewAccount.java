@@ -6,7 +6,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class Create_new_Account {
+public class CreateNewAccount {
 	WebDriver driver;
 	By create_new_account = By.xpath("//body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[5]/a[1]");
 	By titleText = By.xpath("//div[contains(text(),'Sign Up')]");
@@ -25,7 +25,7 @@ public class Create_new_Account {
 	
 	
 
-	public Create_new_Account(WebDriver driver) {
+	public CreateNewAccount(WebDriver driver) {
 		this.driver=driver;
 	}
 	public String getRegisterTitle()

@@ -5,10 +5,10 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Base_Class {
+public class BaseClass {
 	String driverPath = "C:\\chromedriver\\chromedriver.exe";
 	WebDriver driver;
-	public Base_Class(WebDriver driver)
+	public BaseClass(WebDriver driver)
 	{
 		this.driver=driver;
 	}
